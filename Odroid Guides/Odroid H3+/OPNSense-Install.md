@@ -2,10 +2,10 @@
 This is a guide for installing OPNSense on your Odroid H3 or H3+ device to use it as a router. 
 I have been tinkering with the Odroid H3+ to use it as low power high performance router & firewall device. 
 
-The Odroid H3+ has onboard Realtek NIC's (2x 2.5g) and has a netcard option for a total of 6x 2.5gbe NIC's making it a good option for a home router. 
-The problem that users (and myself) will experience is OPNSense and PFSense use BSD, which does not contain a driver for the Realtek NIC's. 
-If you install OPNSense or PFSense directly on the Odroid H3+ you will have no network interfaces to work with until you get the driver installed. 
-During my testing, even with the driver installed there were a few bugs with the NIC that caused them to drop out intermittently.
+The Odroid H3+ has onboard Realtek NIC's (2x 2.5g) and has a netcard option for a total of 6x 2.5gbe NIC's making it a good option for a home router.\ 
+The problem that users (and myself) will experience is OPNSense and PFSense use BSD, which does not contain a driver for the Realtek NIC's.\
+If you install OPNSense or PFSense directly on the Odroid H3+ you will have no network interfaces to work with until you get the driver installed.\
+During my testing, even with the driver installed there were a few bugs with the NIC that caused them to drop out intermittently.\
 
 ## Disclaimer:
 This guide is for use as is and is free to distribute, I am in no way responsible for anything that goes wrong.
