@@ -46,11 +46,11 @@ When completed your networking should look similiar to this:
 My H3+ has 4 cores and 4 threads, I gave OPNSense 3 cores since I wanted to use Suricata for IDS/IPS purposes.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%205.png)\
 12. Dedicate the amount of memory the VM will have.\
-My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB with less features enabled.\ 
+My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB with less features enabled.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%206.png)\
 13. Networking, for now Select No network device.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%207.png)\
-14. Select finish and create the VM.\ 
+14. Select finish and create the VM.\
 15. Navigate to the newly created VM's Hardware tab.\ 
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20vm%20hardware.png)\
 
