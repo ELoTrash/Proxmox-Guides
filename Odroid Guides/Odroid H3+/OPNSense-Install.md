@@ -24,8 +24,8 @@ Out of the box Proxmox will have 1 Network Device per physical ethernet port on 
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/default%20proxmox.png)
 3. Create a Linux Bridge for your OPN/PFSense WAN port. 
 You will only need to use the physical Port name and check the VLAN aware box. 
-![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/WAN%20Linux%20Bridge.png
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/WAN%20Linux%20Bridge.png)
 4. Create a Linux Bridge for your OPN/PFSense LAN port. 
 You will only need to use the physical Port name and check the VLAN aware box.
-![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/LAN%20Linux%20Bridge.png
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/LAN%20Linux%20Bridge.png)
 
