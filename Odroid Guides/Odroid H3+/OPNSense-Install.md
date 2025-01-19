@@ -64,3 +64,4 @@ My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB wit
 
 ## Notes: 
 - when creating the NIC the disconnect button can be enabled, inside PFSense or OPNSense you can push a to automatically start detecting new devices and then disabling the disconnect option on the nic. This will allow OPNSense or PFSense to assign the WAN or LAN ports easily during configuration. 
+- `enp3s0` is my physical LAN port on the odroid h3+ netcard I have. `enp4s0` is my physical WAN port on the Odroid h3+ netcard.
