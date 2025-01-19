@@ -35,4 +35,22 @@ When completed your networking should look similiar to this:
 6. Upload the ISO image to your Proxmox storage.
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)
 7. Create a Proxmox VM
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%201.png)
+8. Select the OPNSense/PFSense image you uploaded as the OS to use. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%202.png)
+9. Check the QEMU Agent box in the System tab. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%203.png)
+10. Disks, I used the default sized disk with a 32gb size as this was more than enough for my router. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%204.png)
+11. Configure the CPU's the router can use. 
+My H3+ has 4 cores and 4 threads, I gave OPNSense 3 cores since I wanted to use Suricata for IDS/IPS purposes. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%205.png)
+12. Dedicate the amount of memory the VM will have. 
+My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB with less features enabled. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%206.png)
+13. Networking, for now Select No network device. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%207.png)
+14. Select finish and create the VM. 
+15. Navigate to the newly created VM's Hardware tab. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20vm%20hardware.png)
 
