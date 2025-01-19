@@ -33,7 +33,7 @@ When completed your networking should look similiar to this:
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Reference%20networking%20setup.png)
 5. Download the OPNSense or PFSense ISO image to your machine.   
 6. Upload the ISO image to your Proxmox storage.
-![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)  
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)\
 7. Create a Proxmox VM
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%201.png)  
 8. Select the OPNSense/PFSense image you uploaded as the OS to use. 
