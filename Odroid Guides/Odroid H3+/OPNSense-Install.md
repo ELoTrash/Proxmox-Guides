@@ -14,7 +14,18 @@ This guide is for use as is and is free to distribute, I am in no way responsibl
 1. Your Odroid must be flashed to support the netcard with the netcard bios. 
 You can find more information about the BIOS and flashing guide on the official [Odroid Wiki](https://wiki.odroid.com/odroid-h3/hardware/h3_bios_update). 
 2. Proxmox Installed on the Odroid H3 or H3+ device.
+3. Netcard must be installed, Proxmox will use a physical ethernet port and the OPNSense or PFSense router will use two physical ethernet ports for WAN & LAN
 
 # Steps: 
 1. With Proxmox installed on the Odroid H3 or H3+, Navigate to the Network tab. 
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox-Networking.png)
+2. Take list of your Odroid Interfaces. 
+Out of the box Proxmox will have 1 Network Device per physical ethernet port on your Odroid and a single Linux Bridge. (Total of 6 with Netcard installed)
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/default%20proxmox.png)
+3. Create a Linux Bridge for your OPN/PFSense WAN port. 
+You will only need to use the physical Port name and check the VLAN aware box. 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/WAN%20Linux%20Bridge.png
+4. Create a Linux Bridge for your OPN/PFSense LAN port. 
+You will only need to use the physical Port name and check the VLAN aware box.
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/LAN%20Linux%20Bridge.png
+
