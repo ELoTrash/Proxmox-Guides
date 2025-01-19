@@ -34,10 +34,10 @@ When completed your networking should look similiar to this:
 5. Download the OPNSense or PFSense ISO image to your machine.   
 6. Upload the ISO image to your Proxmox storage.
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)\
-7. Create a Proxmox VM
-![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%201.png)  
+7. Create a Proxmox VM\
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%201.png)\
 8. Select the OPNSense/PFSense image you uploaded as the OS to use. 
-![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%202.png)  
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%202.png)\
 9. Check the QEMU Agent box in the System tab. 
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%203.png)
 10. Disks, I used the default sized disk with a 32gb size as this was more than enough for my router. 
