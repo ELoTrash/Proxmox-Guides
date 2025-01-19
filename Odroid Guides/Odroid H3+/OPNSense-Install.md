@@ -36,7 +36,7 @@ When completed your networking should look similiar to this:
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)\
 7. Create a Proxmox VM\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%201.png)\
-8. Select the OPNSense/PFSense image you uploaded as the OS to use.\ 
+8. Select the OPNSense/PFSense image you uploaded as the OS to use.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%202.png)\
 9. Check the QEMU Agent box in the System tab.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%203.png)\
@@ -51,6 +51,6 @@ My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB wit
 13. Networking, for now Select No network device.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Proxmox%20Create%20a%20VM%207.png)\
 14. Select finish and create the VM.\
-15. Navigate to the newly created VM's Hardware tab.\ 
+15. Navigate to the newly created VM's Hardware tab.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20vm%20hardware.png)\
 
