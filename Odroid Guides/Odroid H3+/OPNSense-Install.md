@@ -53,4 +53,13 @@ My OPNSense has 8GB of ram assigned to it, OPNSense can easily be ran on 4GB wit
 14. Select finish and create the VM.\
 15. Navigate to the newly created VM's Hardware tab.\
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20vm%20hardware.png)\
+16. In the hardware section, add a network device.\
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/add%20network%20device.png)\
+17. Select the LAN and uncheck the firewall box.\
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20LAN%20nic.png)\
+18. Repeat the same for the WAN.\
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20WAN%20nic.png)\
+19. Start the VM and follow the OPNSense or PFSense installer guide. 
 
+## Notes: 
+- when creating the NIC the disconnect button can be enabled, inside PFSense or OPNSense you can push a to automatically start detecting new devices and then disabling the disconnect option on the nic. This will allow OPNSense or PFSense to assign the WAN or LAN ports easily during configuration. 
