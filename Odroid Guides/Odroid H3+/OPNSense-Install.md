@@ -29,3 +29,10 @@ You will only need to use the physical Port name and check the VLAN aware box.
 You will only need to use the physical Port name and check the VLAN aware box.
 ![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/LAN%20Linux%20Bridge.png)
 
+When completed your networking should look similiar to this: 
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/Reference%20networking%20setup.png)
+5. Download the OPNSense or PFSense ISO image to your machine. 
+6. Upload the ISO image to your Proxmox storage.
+![alt text](/Images/Odroid-H3+/OPNSense-Screenshots/proxmox%20upload%20iso.png)
+7. Create a Proxmox VM
+
