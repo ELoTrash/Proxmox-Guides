@@ -57,7 +57,7 @@ Note: Git may need to be installed first, can be done with `apt install git`\
 `git clone https://github.com/strongtz/i915-sriov-dkms.git`\
 3. Navigate into the directory of the cloned file:\
 `cd i915-sriov-dkms`\
-![alt text](/Images/Odroid-H3+/Plex/git%20clone%20folder%20structure.png)
+![alt text](/Images/Odroid-H3+/Plex/git%20clone%20folder%20structure.png)\
 4. Install the github contents:\
 `dkms install -m i915-sriov-dkms -v 2024.08.09 --force`\
 5. Install the proxmox headers:\
