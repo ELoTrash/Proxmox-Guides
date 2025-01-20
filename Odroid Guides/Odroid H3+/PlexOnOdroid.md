@@ -63,7 +63,7 @@ Note: Git may need to be installed first, can be done with `apt install git`\
 5. Install the proxmox headers:\
 `apt install proxmox-headers-6.8.8-2-pve proxmox-kernel-6.8.12-1-pve`
 6. Update the grub with the following command: 
-`update-grub`
+`update-grub`\
 7. Restart your Proxmox server.
 
 ## IGPU Passthrough: 
