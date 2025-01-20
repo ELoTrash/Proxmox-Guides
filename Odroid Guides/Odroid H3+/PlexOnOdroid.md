@@ -90,7 +90,7 @@ Add the following to the fstab file:
 ```
 `tmpfs /transcode tmpfs rw,nodev,nosuid,noexec,nodiratime,size=8G 0 0 `
 ```
-![alt text](/Images/Odroid-H3+/Plex/fstab%20file.png)
+![alt text](/Images/Odroid-H3+/Plex/fstab%20file.png)\
 9. Save the file and run `sudo mount -a` 
 
 ## Configuring Plex: 
