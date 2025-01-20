@@ -100,8 +100,8 @@ Add the following to the fstab file:
 4. Search for the `Transcoder` settings.\
 ![alt text](/Images/Odroid-H3+/Plex/plex%20transcoder%20settings.png)
 5. Set the transcoder temporary directory to `/transcode`\
-![alt text](/Images/Odroid-H3+/Plex/ramdisk.png)\
+![alt text](/Images/Odroid-H3+/Plex/ramdisk.png)
 6. Scroll down and enable the `Use hardware-accelerated video encoding`\
-NOTE: This setting requires a Plex pass.\
+NOTE: This setting requires a Plex pass.
 7. Select the `Intel JasperLake [UHD Graphics]` from the drop down and save changes.\
 ![alt text](/Images/Odroid-H3+/Plex/save%20changes.png)
