@@ -13,3 +13,9 @@ This guide is for use as is and is free to distribute, I am in no way responsibl
 1. Proxmox must be installed as the main OS/Hypervisor.\ 
 2. Plex pass is required for hardware transcoding.\
 3. Atleast 8gb of ram is required for the Plex VM alone.\ 
+4. Putty or some SSH tool must be used to SSH into the VM since it will have no display output.\
+
+# Steps: 
+1. With Proxmox installed on the Odroid H3 or H3+, Create a VM.\
+![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM.png)
+2.  
