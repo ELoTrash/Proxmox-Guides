@@ -18,4 +18,5 @@ This guide is for use as is and is free to distribute, I am in no way responsibl
 # Steps: 
 1. With Proxmox installed on the Odroid H3 or H3+, Create a VM.\
 ![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM.png)
-2.  
+2. Insert a VM name and select the start at boot option.\
+![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM%202.png)
