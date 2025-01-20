@@ -107,3 +107,7 @@ NOTE: This setting requires a Plex pass.
 7. Select the `Intel JasperLake [UHD Graphics]` from the drop down and save changes.\
 ![alt text](/Images/Odroid-H3+/Plex/save%20changes.png)
 8. You should now have a working Plex server utilizing the IGPU. 
+
+# Notes: 
+1. Example screenshot from my HDHomerun streaming local TV transcoding with the IGPU. 
+![alt text](/Images/Odroid-H3+/Plex/OTA%20TV%20Example.png)
