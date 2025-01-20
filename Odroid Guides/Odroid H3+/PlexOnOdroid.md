@@ -55,7 +55,7 @@ GRUB_CMDLINE_LINUX=""
 2. Install the Git repo for the i915-sriov-dkms.\
 Note: Git may need to be installed first, can be done with `apt install git`\
 `git clone https://github.com/strongtz/i915-sriov-dkms.git`\
-Shout out to strongtz for this git repo, without it the i915 GPU would not work. 
+Shout out to strongtz for this git repo, without it the i915 GPU would not work.\
 3. Navigate into the directory of the cloned file:\
 `cd i915-sriov-dkms`\
 ![alt text](/Images/Odroid-H3+/Plex/git%20clone%20folder%20structure.png)\
