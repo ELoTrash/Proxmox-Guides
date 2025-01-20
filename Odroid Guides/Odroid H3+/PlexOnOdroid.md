@@ -97,8 +97,8 @@ Add the following to the fstab file:
 1. Navigate to the following in a web browser `https://ubuntuIP:32400/web`. 
 2. Sign in and link your Plex to your new server.
 3. When logged in navigate to the Plex settings. (wrench icon)
-4. Search for the `Transcoder` settings.
-![alt text](/Images/Odroid-H3+/Plex/plex%20transcoder%20settings.png)\
+4. Search for the `Transcoder` settings.\
+![alt text](/Images/Odroid-H3+/Plex/plex%20transcoder%20settings.png)
 5. Set the transcoder temporary directory to `/transcode`\
 ![alt text](/Images/Odroid-H3+/Plex/ramdisk.png)\
 6. Scroll down and enable the `Use hardware-accelerated video encoding`\
