@@ -17,6 +17,7 @@ This guide is for use as is and is free to distribute, I am in no way responsibl
 5. PCIE pass through enabled on Proxmox. [Proxmox Documentation](https://pve.proxmox.com/wiki/PCI(e)_Passthrough). 
 
 # Steps: 
+## Initial VM configuration:
 1. With Proxmox installed on the Odroid H3 or H3+, Create a VM.\
 ![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM.png)
 2. Insert a VM name and select the start at boot option.\
@@ -35,4 +36,15 @@ We will assign 8GB of RAM to a ramdisk to be used for transcoding. Transcoding r
 ![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM%207.png)\
 8. Network, I left this as default with the `vmbr0` bridge that proxmox uses for the UI (if you are setting this up after following my OPNSense guide this will make more senes).\
 ![alt text](/Images/Odroid-H3+/Plex/Create%20a%20VM%208.png)\
-9. 
+9. Create and start the VM.\
+![alt text](/Images/Odroid-H3+/Plex/start%20vm.png)\
+10. Follow the steps in the No VNC console to install Ubuntu Server.\
+![alt text](/Images/Odroid-H3+/Plex/Console%20vm.png)\
+
+## Proxmox IOMMU Configuration:
+1. Open a host Proxmox shell and run the following command `nano /etc/default/grub` and add the following:
+```GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on iommu=pt igfx_off video=efifb:off i915.enable_guc=3 i915.max_vfs=7"
+GRUB_CMDLINE_LINUX=""```
