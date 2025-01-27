@@ -1,3 +1,4 @@
+```
 ssl_session_cache shared:SSL:10m;
 ssl_session_timeout 10m;
 
@@ -95,3 +96,4 @@ server {
         proxy_buffering off;
     }
 }
+```
